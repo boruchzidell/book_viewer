@@ -68,6 +68,6 @@ get "/search" do
   erb :search
 end
 
-get "/env" do
-  env.map {|k,v| "#{k}:#{v}<br>"}
+get "/download" do
+  "test download"
 end
